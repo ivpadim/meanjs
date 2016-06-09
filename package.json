@@ -1,0 +1,21 @@
+{
+  "name": "mean-todo",
+  "version": "0.0.1",
+  "description": "Building a MEAN Application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Padron",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.1",
+    "colors": "^1.1.2",
+    "express": "^4.13.4",
+    "mongoose": "4.4.20"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
